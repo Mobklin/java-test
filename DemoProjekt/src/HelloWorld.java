@@ -15,7 +15,9 @@ public class HelloWorld {
 		
 		int zufallszahl = rnd.nextInt(100);
 		
-		System.out.println(zufallszahl);
+		System.out.println();
+		
+		System.out.println("Random number: " + zufallszahl);
 	}
 
 }
