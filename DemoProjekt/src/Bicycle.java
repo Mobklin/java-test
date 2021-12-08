@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Bicycle {
 
@@ -26,6 +27,12 @@ public class Bicycle {
 		}
 		
 		System.out.println(new String (buchstaben));
+		
+		Scanner eingabe = new Scanner(System.in);
+		
+		
+		System.out.println("Dein Tipp: ");
+		String tipp = eingabe.next();
 
 	}
 
