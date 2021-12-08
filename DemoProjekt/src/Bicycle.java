@@ -8,7 +8,7 @@ public class Bicycle {
 		
 		Random random = new Random();
 		
-		String wort = "BICYLCE";
+		String wort = "BICYCLE";
 		
 		char[] buchstaben = wort.toCharArray();
 		
@@ -28,11 +28,25 @@ public class Bicycle {
 		
 		System.out.println(new String (buchstaben));
 		
+		
 		Scanner eingabe = new Scanner(System.in);
 		
-		
 		System.out.println("Dein Tipp: ");
+		
 		String tipp = eingabe.next();
+		
+		
+		if(tipp.charAt(0) == wort.charAt(0)) {
+			
+			System.out.println("1. Buchstabe richtig!");
+		}
+		else {
+			
+			System.out.println("1. Buchstabe falsch!");
+		}
+		
+		
+		
 
 	}
 
