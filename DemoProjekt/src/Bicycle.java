@@ -44,9 +44,6 @@ public class Bicycle {
 			
 			System.out.println("1. Buchstabe falsch!");
 		}
-		
-		
-		
 
 	}
 
